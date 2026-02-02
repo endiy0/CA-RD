@@ -5,7 +5,7 @@
 - Raspberry Pi Server: Ollama JSON → SVG → PNG base64 → queue
 - Print Station PC: `/print` page claims jobs → local C# PrintAgent prints
 
-## Run (Raspberry Pi server)
+## Run (server)
 
 ```bash
 cd server
@@ -22,12 +22,12 @@ cd csharp
  dotnet run --project PrintAgent/PrintAgent.csproj
 ```
 
-Open `http://<server-ip>/print` in the print station browser.
+Open `http://<server-ip>:3000/print` in the print station browser.
 Optional: open `http://127.0.0.1:18181/printer` on the print PC to select the default printer.
 
 ## Run (Tablet)
 
-Open `http://<server-ip>` and generate/print cards.
+Open `http://<server-ip>:3000` and generate/print cards.
 
 ## Test Scenarios
 1. `GET /api/health` returns `{ ok: true }`.
