@@ -31,7 +31,7 @@ Open `http://<server-ip>:3000` and generate/print cards.
 
 ## Test Scenarios
 1. `GET /api/health` returns `{ ok: true }`.
-2. Answer the 3 AI questions → preview shows card and stats.
+2. Answer the 4~5 AI questions → preview shows card and stats.
 3. Click “인쇄 요청” → print job queued.
 4. Print station `/print` claims job automatically.
 5. Local agent receives image and prints without dialogs.
