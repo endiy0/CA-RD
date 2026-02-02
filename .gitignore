@@ -1,0 +1,33 @@
+## Node / Vite
+node_modules/
+dist/
+server/front/dist/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Env
+.env
+.env.local
+.env.*.local
+
+## Logs
+logs/
+*.log
+
+## OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
